@@ -7,13 +7,13 @@
 
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-Specification-C8102E?style=flat-square)](https://agentskills.io)
 [![Runtime](https://img.shields.io/badge/Runtime-WorkBuddy%20·%20Claude%20Code%20·%20Codex%20·%20Cursor-18181B?style=flat-square)](#五30-秒安装与挂载)
-[![Rule](https://img.shields.io/badge/Hard%20Gate-14~22%20字%20·%205大公式%20·%20≥4维钩子-B45309?style=flat-square)](#三5-大高浓缩杂交公式与废稿对照)
+[![Rule](https://img.shields.io/badge/Title%20Standard-14~22%20字%20·%205大公式%20·%20≥4维钩子-B45309?style=flat-square)](#三5-大高浓缩杂交公式与废稿对照)
 [![License](https://img.shields.io/badge/License-MIT-059669?style=flat-square)](LICENSE)
 
 > 🔴 **作者：袁六伟 · 台州汇芯**｜一人 AI 公司创业者，学员 7000+，客户 100+，得到 / 华为分享老师  
 > 📮 更多 AI 工具实测与自动化实战，关注 **公众号 / 视频号：袁六伟**
 
-**不是泛泛而谈的「帮我想几个标题」，是一套锁死字数红线（14–22 字）与四维钩子密度的起题生产线。**  
+**不是泛泛而谈的「帮我想几个标题」，是一套守住字数红线（14–22 字）与四维钩子密度的起题生产线。**  
 把一个主题或一段草稿丢给 Agent，一次拿到 **10 条 14–22 字** 的短平快狠标题，逐条标注字数与融合要素，并自动加粗最值得先发的 Top 2。全行业通用（职场、电商、教培、历史科普、母婴、财经、AI）。
 
 ```bash
@@ -24,7 +24,7 @@ npx skills add sixwei2025/hit-title-expert-skill
 git clone https://github.com/sixwei2025/hit-title-expert-skill.git ~/.claude/skills/hit-title-expert
 ```
 
-[为什么长标题没人点](#一为什么普通-ai-写的标题没人点) · [六步硬闸流水线](#二六步硬闸起题流水线) · [5 大浓缩公式](#三5-大高浓缩杂交公式与废稿对照) · [5 类钩子弹药库](#四五类高浓缩钩子词库跨行业替换法则) · [安装配置](#五30-秒安装与挂载)
+[为什么长标题没人点](#一为什么普通-ai-写的标题没人点) · [六步起题流水线](#二六步起题流水线) · [5 大浓缩公式](#三5-大高浓缩杂交公式与废稿对照) · [5 类钩子弹药库](#四五类高浓缩钩子词库跨行业替换法则) · [安装配置](#五30-秒安装与挂载)
 
 </div>
 
@@ -36,28 +36,28 @@ git clone https://github.com/sixwei2025/hit-title-expert-skill.git ~/.claude/ski
 - ❌ 废稿例 1：《还在手动复制聊天记录？难怪你的 GPT 越用越蠢，快用这个插件》（27 字，手机列表直接被截断一半，毫无重点）
 - ❌ 废稿例 2：《跑完 100 家企业交付后，我撕开 AI 圈最大的遮羞布，老板们都不会用》（29 字，铺垫太长，读者划过去只需 0.3 秒）
 
-真正高点击率的公众号与短视频标题，必须在 **14–22 个字** 的黄金视觉宽度内，用「一词双要素」的高浓缩词同时引爆 **4 个以上钩子**。本 Skill 把这套肌肉记忆固化成了机械硬闸：
+真正高点击率的公众号与短视频标题，必须在 **14–22 个字** 的黄金视觉宽度内，用「一词双要素」的高浓缩词同时引爆 **4 个以上钩子**。本 Skill 把这套实战手感写成了四条把关标准：
 
-| 硬闸维度 | 传统提示词起题 | `hit-title-expert-skill` 硬闸标准 |
+| 把关维度 | 传统提示词起题 | `hit-title-expert-skill` 质量标准 |
 | :--- | :--- | :--- |
-| **字数控制** | 动辄 25–35 字，手机端折行截断 | **严格锁死 14–22 字**（汉字/字母/数字各算 1 字，标点与《》不计；超 1 字当场重写） |
+| **字数控制** | 动辄 25–35 字，手机端折行截断 | **严格控制在 14–22 字**（汉字/字母/数字各算 1 字，标点与《》不计；超 1 字当场重写） |
 | **信息密度** | 大量连接词、形容词、慢热铺垫 | **每条必融 ≥4 个钩子要素**（蹭大牌 / 判死刑 / 晒数字 / 窥私外挂 / 悬念） |
 | **结构多样性** | 10 条标题长相雷同，换汤不换药 | **10 条至少覆盖 4 种杂交公式**，末尾强制打印 `（N字 | 要素1+要素2+要素3+要素4）` |
 | **事实诚实度** | 随意编造「年入千万」「10万用户」 | **缺具体战绩一律用 `〔待补〕` 占位**，绝不替用户捏造虚假数字 |
 
 ---
 
-## 二、六步硬闸起题流水线
+## 二、六步起题流水线
 
 <p align="center">
-  <img src="assets/showcase/pipeline-architecture.jpg" alt="爆款标题专家六步硬闸流水线" width="100%" />
+  <img src="assets/showcase/pipeline-architecture.jpg" alt="爆款标题专家六步起题流水线" width="100%" />
 </p>
 
 直接对你的 Agent 说这几句话即可驱动：
 
 | 你对 Agent 说 | Agent 执行动作与交付物 |
 | :--- | :--- |
-| **「用爆款标题专家，给这个主题出 10 条短标题：……」** | 走完 6 步硬闸，交付 **10 条 14–22 字标题 + 字数/要素验算标 + 加粗 Top 2 首选** |
+| **「用爆款标题专家，给这个主题出 10 条短标题：……」** | 走完 6 步流程，交付 **10 条 14–22 字标题 + 字数/要素验算标 + 加粗 Top 2 首选** |
 | **「把这段草稿压成 10 条狠标题，给门店老板看」** | 自动将词库切换为实体商业/门店语境，剔除 AI 圈黑话，输出 10 条老板视角短标题 |
 | **「用公式 5（监控流出）给司马光砸缸出 5 条短视频标题」** | 针对历史/人物/短视频场景，输出带强烈现场感与反差感的 14–20 字标题 |
 
@@ -67,7 +67,7 @@ git clone https://github.com/sixwei2025/hit-title-expert-skill.git ~/.claude/ski
 
 本仓库在 [`GUIDE.md`](GUIDE.md) 中内置了 5 套经过实战检验的四维/五维杂交公式：
 
-| 公式编号 | 要素组合 | 啰嗦废稿（传统 AI 写法） | 本 Skill 浓缩成品（14–22 字硬闸） |
+| 公式编号 | 要素组合 | 啰嗦废稿（传统 AI 写法） | 本 Skill 浓缩成品（14–22 字精炼） |
 | :---: | :--- | :--- | :--- |
 | **公式 01** | **判死刑 + 蹭大牌 + 窥私外挂 + 悬念** | 《还在手动复制聊天记录？难怪你的GPT越用越蠢，快用这个插件》 | **《别再手动复制了！给GPT装上这外挂，直接封神！》**（20字） |
 | **公式 02** | **蹭热点 + 晒数字 + 起贪欲 + 造冲突** | 《Claude被封号之后，我用三个免费的AI工具搭建了工作流产能暴涨》 | **《砍掉20万外包！我靠1个野生AI，产能反超5倍！》**（20字） |
@@ -119,7 +119,7 @@ hit-title-expert-skill/
 ├── GUIDE.md                           # 【弹药库】5 大杂交公式、废稿对照表、5 类浓缩词库与非 AI 行业示例
 ├── skill-avatar-512.jpg               # Skill 图标资产
 ├── assets/
-│   └── showcase/                      # README 视觉展示图集（Hero 横幅与六步硬闸架构图）
+│   └── showcase/                      # README 视觉展示图集（Hero 横幅与六步起题架构图）
 ├── LICENSE                            # MIT 开源许可
 └── NOTICE                             # 归属声明
 ```
@@ -139,17 +139,17 @@ hit-title-expert-skill/
 
 | 仓库 | 领域 | 核心能力 |
 | :--- | :--- | :--- |
-| [**workbuddy-wechat-autopilot**](https://github.com/sixwei2025/workbuddy-wechat-autopilot) | 公众号全链路 | 九步硬闸总控：选题→写稿→真实截图→6套封面→6套排版→三重校验→草稿箱 |
-| [**wechat-cover-skill**](https://github.com/sixwei2025/wechat-cover-skill) | 公众号视觉 | 封面渲染引擎（6套高客单价杂志风 + 黑红金 v2b + DOM 几何硬闸） |
-| [**gzh-million-layout-skill**](https://github.com/sixwei2025/gzh-million-layout-skill) | 公众号排版 | 汇芯红 `#C8102E` 六套 100% 内联 CSS 骨架 + 乱码硬闸 + 配图皮肤 |
-| [**ai-tool-review-wechat-skill**](https://github.com/sixwei2025/ai-tool-review-wechat-skill) | 公众号评测 | AI 工具真跑评测工作流（5项一票否决 + 说人话硬闸 + 证据表） |
+| [**workbuddy-wechat-autopilot**](https://github.com/sixwei2025/workbuddy-wechat-autopilot) | 公众号全链路 | 九步全自动总控：选题→写稿→真实截图→6套封面→6套排版→三重自动质检→草稿箱 |
+| [**wechat-cover-skill**](https://github.com/sixwei2025/wechat-cover-skill) | 公众号视觉 | 封面渲染引擎（6套高客单价杂志风 + 黑红金 v2b + 防压脸自动校验） |
+| [**gzh-million-layout-skill**](https://github.com/sixwei2025/gzh-million-layout-skill) | 公众号排版 | 汇芯红 `#C8102E` 六套 100% 内联 CSS 骨架 + 零乱码检查 + 配图皮肤 |
+| [**ai-tool-review-wechat-skill**](https://github.com/sixwei2025/ai-tool-review-wechat-skill) | 公众号评测 | AI 工具真跑评测工作流（2.0 全自动压测 + 去碎句语感质检 + 六套骨架装配） |
 | [**hit-title-expert-skill**](https://github.com/sixwei2025/hit-title-expert-skill) | 爆款标题 | 一次直出 10 条 14–22 字高浓缩狠标题（5大公式 × 5类钩子词） |
 | [**auto-tutorial-skill**](https://github.com/sixwei2025/auto-tutorial-skill) | 短视频工程 | 链接/网页/真机截图 → 3:4 封面 + 1.5x 配音 + 红框标注教程视频 |
 | [**talking-head-video-skill**](https://github.com/sixwei2025/talking-head-video-skill) | 短视频工程 | 1080×1920 竖屏真人口播短视频（ASR 错字校对 + 逐字卡拉OK字幕 + 6项QC） |
 | [**3d-map-video-skill**](https://github.com/sixwei2025/3d-map-video-skill) | 短视频工程 | MapLibre 3D 地形 + WarFX 战争特效（粒子行军/点阵兵力/震屏混音） |
 | [**psych-kepu-video-skill**](https://github.com/sixwei2025/psych-kepu-video-skill) | 短视频工程 | Remotion + JSON 驱动的 15–30s 深色扁平动画心理科普短视频 |
 | [**dark-infographic-video-skill**](https://github.com/sixwei2025/dark-infographic-video-skill) | 短视频工程 | 纯 Python + FFmpeg 暗黑流光数据可视化科普片（含 v2 手机外放配乐） |
-| [**local-video-hub**](https://github.com/sixwei2025/local-video-hub) | AI 团队基建 | 视频版本地 Obsidian：多 AI 员工统一交片、去重门闸与四态流转云台 |
+| [**local-video-hub**](https://github.com/sixwei2025/local-video-hub) | AI 团队基建 | 视频版本地 Obsidian：多 AI 员工统一交片、撞题查重与四态流转云台 |
 | [**yuanliuwei-ai-skills**](https://github.com/sixwei2025/yuanliuwei-ai-skills) | 一人公司方法 | PACT 72h 需求验证模型与一人 AI 公司 10 大业务决策模块 |
 | [**book-skill**](https://github.com/sixwei2025/book-skill) | 知识工程 | 上传任意书籍 PDF → 自动提炼方法论生成 `.skill` + 公众号导流文案 |
 | [**huangdi-skill**](https://github.com/sixwei2025/huangdi-skill) | 认知操作系统 | 中国历史八大皇帝（秦始皇/汉武帝/唐太宗等）一手史料认知框架蒸馏 |
